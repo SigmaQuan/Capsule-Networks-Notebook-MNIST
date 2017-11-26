@@ -1,6 +1,6 @@
 # Capsule-Networks-Notebook-MNIST
+This implementation is similar to the paper, I've only done classification, and not reconstruction. If you find any issues or can help make the code more readable, please reach out to me at sriram@ucsd.edu. This implementation is similar to gram.ai's implementation, but this one should run a bit faster. <br><br>
 
-If you're looking for a simple implementation of CapsNet, maybe this code will help you. If you find any issues or can help make the code more readable, please reach out to me at sriram@ucsd.edu. <br>
 I've mentioned the size of each variable after the corresponding line, for easy understanding.
 
 ## Requirements
@@ -16,7 +16,10 @@ Just ```shift+return``` everything, it should run just fine. The code was meant 
 It's super slow but make sure to remove ```.cuda()``` from everywhere in the code. 
 
 ## Results
-I got 99.4% testing accuracy at the end of 24th epoch and didn't have patience to run more. 
+I got 99.4% testing accuracy at the end of 24th epoch and didn't have patience to run more. For 10 epochs, I obtained 99.33% test accuracy.
+
+<img src = 'images/trnacc.png' width = "300px" >
+<img src = 'images/tstacc.png' width = "300px">
 
 ## Credits
 * @iwasaki-kenta for his implementation. 

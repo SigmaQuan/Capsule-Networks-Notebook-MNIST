@@ -1,6 +1,7 @@
 # Capsule-Networks-Notebook-MNIST
 
-If you're looking for a simple implementation of CapsNet, maybe this code will help you. If you find any issues or can help make the code more readable, please reach out to me at sriram@ucsd.edu. PRs are welcome.
+If you're looking for a simple implementation of CapsNet, maybe this code will help you. If you find any issues or can help make the code more readable, please reach out to me at sriram@ucsd.edu. <br>
+I've mentioned the size of each variable after the corresponding line, for easy understanding.
 
 ## Requirements
 * PyTorch 0.2+
@@ -8,6 +9,7 @@ If you're looking for a simple implementation of CapsNet, maybe this code will h
 * Torchvision (for MNIST)
 
 ## Usage
+Capsule Networks Notebook.ipynb <br>
 * GPU - 
 Just ```shift+return``` everything, it should run just fine. The code was meant for people to understand and requires some effort to repurpose (values are hardcoded).
 * No GPU - 
